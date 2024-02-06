@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+body{
+    background-color: #fffde4;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2.2em 3.15em;
+    gap: 1.25em;
+    align-items: center;
+}
+
+.logo{
+    width: 5em;
+}
+
+.title{
+    font-size: 1.5em;
+    font-family: 'Cinzel', serif;
+}
+
+.body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2.75em;
+}
+
+#crearBoton, .boton{
+    all:unset;
+    border: solid 2px #343434;
+    background-color: #dca766;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1em 2.5em;
+    border-radius: 1em;
+    transition: all 300ms ease;
+}
+
+#crearBoton:hover, .boton:hover{
+    background-color: #b56d5a;
+    color: #fff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+#montoInput{
+    all: unset;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    width: 12em;
+    padding: .3em .5em;
+    border: solid 2px #343434;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #e4efff;
+    padding: 10px 0;
+    font-weight: 500;
+    width: 100%;
+}
+
+.anchor{
+    display: flex;
+    align-items: center;
+}
+
+.guppylogo{
+    width: 120px;
+    margin-left: 5px;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: 700;
+}
